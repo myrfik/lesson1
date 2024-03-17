@@ -1,20 +1,18 @@
-
 package org.example.lesson_1_task_3
-fun main(){
+
+fun main() {
 
     val year = 1961
-    var hour ="09"
+    var hour = "09"
     var minute = "07"
 
     println(year)
     //println(hour)
     //println(minute)
 
-    hour ="10"
-    minute="55"
+    hour = "10"
+    minute = "55"
 
-    print(hour)
-    print(":")
-    print(minute)
+    print(hour+":"+minute)
 
 }
